@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#project">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <p><em>Hello! I'm learning HTML. I enjoy <strong>coding</strong>, coffee, and sharing ideas.</p>
+            <p>My favorite quote is <q>Code is like humor. When you have to explain it, it’s bad.</q></p>
+            <p><abbr title="HyperText Markup Language">HTML</abbr> is the foundation of the web.</em></p>
+            <img width="300" src="https://wallpapers.video/wp-content/uploads/2022/04/vlcsnap-2022-03-14-14h01m55s895-450x253-1.jpg" alt="mewto">
+        </section>
+
+        <article>
+            
+            <h2>My Blog Post</h2>
+            <p>This is an article about my journey learning HTML.</p>
+            <p>Here is some code:</p>
+            <pre><code>
+              print("hell world")
+             </code></pre>
+        </article>
+
+        <aside>
+            <h2>Quick Tip</h2>
+            <p>Use semantic tags to make your HTML more meaningful!</p>
+        </aside>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h3>Certifications</h3>
+            <ol>
+                <li>Responsive Web Design</li>
+                <li>JavaScript Algorithms</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to newsletter
+                </label><br><br>
+
+                <label for="topic">Select topic:</label>
+                <select id="topic" name="topic">
+                    <option value="general">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="support">Support</option>
+                    <option value="reprort">reprort</option>
+                    <option value="technical">echnical</option>
+                    <option value="commertiol">commertiol</option>
+
+                </select><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="project">
+            <h2>Project Timeline</h2>
+            <table border=1>
+                <tr>
+                    <th>Project</th>
+                    <th>Status</th>
+                    <th>Deadline</th>
+                </tr> 
+                <tr>
+                    <td>Learn HTML</td>
+                    <td>In Progress</td>
+                    <td>2025-07-31</td>
+                </tr>
+                <tr>
+                    <td>Build Portfolio</td>
+                    <td>Planned</td>
+                    <td>2025-08-15</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Profile Page</p>
+    </footer>
+
+</body>
+</html>
